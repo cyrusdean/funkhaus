@@ -1,6 +1,8 @@
 <template>
 
-    <main class="content fallback"></main>
+    <main class="content fallback">
+    	<div v-html="$store.state.loop[0].content"/>
+    </main>
 
 </template>
 
